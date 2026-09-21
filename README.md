@@ -4,6 +4,14 @@ An Edge AI and IoT-based multi-bay electric vehicle (EV) charging station power 
 
 ---
 
+## 📹 Video Demonstration
+
+[![Smart EV Charging Station Optimizer Demo](https://img.youtube.com/vi/vt35B121dBw/maxresdefault.jpg)](https://www.youtube.com/watch?v=vt35B121dBw)
+
+▶️ **[Click here to watch the full system demonstration on YouTube](https://www.youtube.com/watch?v=vt35B121dBw)**
+
+---
+
 ## 📌 Features
 
 - **Multi-Bay Power Distribution**: Independent real-time management and monitoring of 3 charging bays (`BAY 1`, `BAY 2`, `BAY 3`).
@@ -16,7 +24,7 @@ An Edge AI and IoT-based multi-bay electric vehicle (EV) charging station power 
 
 ## 📁 Repository Structure
 
-text
+```text
 smart-ev-charging-station-optimizer-using-3-Bays/
 ├── BAY 1/                     # Firmware & configuration for Charging Bay 1
 │   ├── src/                   # C++ source code (main.cpp, Peripherals, Network, etc.)
@@ -29,44 +37,33 @@ smart-ev-charging-station-optimizer-using-3-Bays/
 │   └── test/                  # Wokwi simulation config & hardware diagram
 ├── .gitignore                 # File exclusion configuration for Git
 └── README.md                  # Project documentation
+🛠 Tech Stack & Hardware Requirements
+Microcontroller: ESP32
 
+Programming Language: C / C++ (PlatformIO / VS Code framework)
 
----
+Communication Protocols: MQTT, Wi-Fi, RPC
 
-## 🛠 Tech Stack & Hardware Requirements
+IoT Platform: ThingsBoard / Custom MQTT Broker
 
-- **Microcontroller**: ESP32
-- **Programming Language**: C / C++ (PlatformIO / VS Code framework)
-- **Communication Protocols**: MQTT, Wi-Fi, RPC
-- **IoT Platform**: ThingsBoard / Custom MQTT Broker
-- **Simulation Platform**: Wokwi Simulator
-## 📹 Project Video Demonstration
+Simulation Platform: Wokwi Simulator
 
-Watch the full system overview and live simulation demo on YouTube:
+🚀 Getting Started
+Prerequisites
+VS Code with the PlatformIO IDE extension or Wokwi Simulator extension installed.
 
-[![Smart EV Charging Station Optimizer Demo](https://www.youtube.com/watch?v=vt35B121dBw)](YOUR_YOUTUBE_VIDEO_LINK)
+Git installed on your machine.
 
-*(Click the image above or [click here](YOUR_YOUTUBE_VIDEO_LINK) to watch the video on YouTube)*
+Local Setup
+Clone the repository:
 
----
+Bash
+git clone [https://github.com/Amna-Khan-hub/smart-ev-charging-station-optimizer-using-3-Bays.git](https://github.com/Amna-Khan-hub/smart-ev-charging-station-optimizer-using-3-Bays.git)
+Open in VS Code:
+Open VS Code and navigate to File > Open Folder..., then select the smart-ev-charging-station-optimizer-using-3-Bays directory.
 
-## 🚀 Getting Started
+Running Wokwi Simulations:
 
-### Prerequisites
+Navigate to the test/ folder of any bay (e.g., BAY 1/test/diagram.json).
 
-1. **VS Code** with the **PlatformIO IDE** extension or **Wokwi Simulator** extension installed.
-2. **Git** installed on your machine.
-
-### Local Setup
-
-1. **Clone the repository:**
-bash
-git clone https://github.com/Amna-Khan-hub/smart-ev-charging-station-optimizer-using-3-Bays.git
-
-
-2. **Open in VS Code:**
-Open VS Code and navigate to `File > Open Folder...`, then select the `smart-ev-charging-station-optimizer-using-3-Bays` directory.
-
-3. **Running Wokwi Simulations:**
-- Navigate to the `test/` folder of any bay (e.g., `BAY 1/test/diagram.json`).
-- Press `F1` in VS Code and select **Wokwi: Start Simulator** to test the circuit and logic virtually.
+Press F1 in VS Code and select Wokwi: Start Simulator to test the circuit and logic virtually.
