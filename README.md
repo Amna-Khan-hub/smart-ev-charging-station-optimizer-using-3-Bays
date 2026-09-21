@@ -40,6 +40,13 @@ smart-ev-charging-station-optimizer-using-3-Bays/
 - **Communication Protocols**: MQTT, Wi-Fi, RPC
 - **IoT Platform**: ThingsBoard / Custom MQTT Broker
 - **Simulation Platform**: Wokwi Simulator
+## 📹 Project Video Demonstration
+
+Watch the full system overview and live simulation demo on YouTube:
+
+[![Smart EV Charging Station Optimizer Demo](https://www.youtube.com/watch?v=vt35B121dBw)](YOUR_YOUTUBE_VIDEO_LINK)
+
+*(Click the image above or [click here](YOUR_YOUTUBE_VIDEO_LINK) to watch the video on YouTube)*
 
 ---
 
